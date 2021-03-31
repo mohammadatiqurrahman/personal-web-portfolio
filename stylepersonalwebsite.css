@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(71, 76, 109);
+
+  } 
+li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.first-section{
+    margin-top: 5px;
+    width: 100%;
+    height: 450px;
+    background-color: dodgerblue;
+}
+
+
+.first-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first-div h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.first-div a{
+
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 6px 35px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.first-div img{
+    width: 100%;
+}
+
+.second-section{
+margin-top: 5px;
+ width: 100%;
+ height: 450px;
+ background-color: dodgerblue;
+}
+
+.second-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 10px;
+ 
+}
+.second-div h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.second-div a{
+
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 6px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.second-div img{
+    width: 100%;
+}
+.second-div p{
+    margin: 25px;
+    text-align: justify;
+}
+.classic-heading{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(197, 235, 226);
+}
+.classic-heading h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.classic{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(197, 235, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.classic1{
+    margin-top: 30px;
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(189, 187, 187);
+    
+}
+.classic1 img{
+    margin-top: 25px;
+    width: 90%;
+    margin-left: 5%;
+}
+.classic1 h3,p{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.contact{
+    width: 100%;
+    height: 110px;
+    margin-top:50px;
+    
+}
+.contact h2{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(133, 129, 129);
+    padding-top: 50px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.bg{
+    background-image: url(images/bg-image.png);
+    width: 48%;
+    height: 170px;
+    margin-left: 26%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+.work{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.chat{
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%); 
+}
+.chat p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-image: linear-gradient(60deg, rgb(247, 104, 60), rgb(247, 36, 36));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 3%;
+    padding: 5px;
+}
+
